@@ -1,8 +1,11 @@
 /* Commot styles */
 body {
+    color: #434455;
+    background-color: #FFFFFF;
 font-family: 'Roboto', sans-serif;
 font-family: 'Raleway', sans-serif;
 }
+/* Reset */
 ul,ol {
     list-style: none;
 }
@@ -11,8 +14,13 @@ a {
     font-style: normal;
 }
 button {
-    font-family: inherit;
+    font-family: 'Roboto';
     cursor: pointer;
+    font-weight: 500;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color:#4d5ae5;
 }
 .section {
 
@@ -22,21 +30,21 @@ button {
 }
 .header-nav {
 }
-.header-logo {
-    font-family: 'Raleway';
-    font-weight: 800;
+.logo {
+font-family: 'Raleway';
+font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
 display: flex;
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #2E2F42;
+color: #4D5AE5
 }
-.header-logo-style {
-color: #4D5AE5;  
+.header-logo-link {
+color: #2E2F42; 
 }
-.header-list {
+.list {
 }
 .header-item {
 }
@@ -52,13 +60,14 @@ color: #2E2F42;
     color: #404BBF;
 }
 .header-contacts {
+    font-style: normal;
 }
-.header-networks-list {
+.list {
+    list-style: none;
 }
 .header-networks-item {
 }
 .header-networks-link {
-    font-style: normal;
     font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
@@ -116,7 +125,7 @@ color: #FFFFFF;
 }
 .benefits-title {
 }
-.benefits-list {
+.list {
 }
 .benefits-item {
 }
@@ -152,7 +161,7 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 color: #2E2F42;
 }
-.doing-list {
+.list {
 }
 .doing-item {
 }
@@ -173,7 +182,7 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 color: #2E2F42;
 }
-.team-list {
+.list {
 }
 .team-item {
 }
@@ -203,7 +212,7 @@ color: #434455;
     background-color: #2E2F42;;
 }
 .footer-img {
-    font-family: 'Raleway';
+font-family: 'Raleway';
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
@@ -212,13 +221,13 @@ display: flex;
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #F4F4FD;
+color: #4D5AE5; 
 }
 .footer-img-content {
-color: #4D5AE5;   
+color: #F4F4FD;
 }
 .footer-content {
-    font-family: 'Roboto';
+font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -231,7 +240,7 @@ color: #F4F4FD;
 }
 .button-title {
 }
-.button-list {
+.list {
 }
 .button-item {
 }
@@ -249,13 +258,11 @@ color: #F4F4FD;
         color: #FFFFFF;
     }
     
-
-
-    
 /* Portfolio styles */
 .portfolio-section {
 }
-.portfolio-list {
+.list {
+    list-style: none;
 }
 .portfolio-item {
 }
@@ -279,3 +286,4 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
+
