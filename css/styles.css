@@ -62,6 +62,7 @@ color: #2E2F42;
     color: #404BBF;
 }
 .address {
+    font-style: normal;
 }
 .adress-list {
 }
@@ -170,7 +171,7 @@ color: #2E2F42;
 }
 /* Team section */
 .team {
-    background-color: #FFFFFF;;
+    background-color: #F4F4FD;
 }
 .team-title {
     font-family: 'Roboto';
@@ -188,6 +189,7 @@ color: #2E2F42;
 .team-item {
 }
 .team-img {
+    background-color: #FFFFFF;
 }
 .team-item-title {
     font-family: 'Roboto';
@@ -252,6 +254,7 @@ color: #F4F4FD;
 }
 .list {
     list-style: none;
+    background-color: #FFFFFF;
 }
 .portfolio-item {
 }
