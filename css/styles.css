@@ -6,6 +6,8 @@ body {
 }
 :root {
     --brand-color: #434455;
+    --primary-blue-color: #4d5ae5;
+    --primary-white-color: #F4F4FD;
 
 }
 /* Reset */
@@ -236,13 +238,16 @@ color: #F4F4FD;
 .button-item {
 }
 .button-item-style {
-    background-color: #F4F4FD;
+    color: var(--primary-blue-color);
+    background-color: var(--primary-white-color);
 }
 .button-item-style :hover,
 .button-item-style :focus {
-    background-color: #404BBF;}
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
     .button-item-content {
-        color: #4D5AE5;
+        
     }
     .button-item-content :hover,
     .button-item-content :focus {
