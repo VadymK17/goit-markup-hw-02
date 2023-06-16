@@ -237,23 +237,20 @@ color: #F4F4FD;
 }
 .button-item {
 }
+.button-item :hover {
+    background-color: #404BBF;
+    color:#FFFFFF;
+}
+.button-item :focus {
+    background-color: #404BBF;
+    color:#FFFFFF;
+}
 .button-item-style {
     color: var(--primary-blue-color);
     background-color: var(--primary-white-color);
 }
-.button-item-style :hover,
-.button-item-style :focus {
-    color: #FFFFFF;
-    background-color: #404BBF;
-}
-    .button-item-content {
-        
+    .button-item-content {   
     }
-    .button-item-content :hover,
-    .button-item-content :focus {
-        color: #FFFFFF;
-    }
-    
 /* Portfolio styles */
 .portfolio-section {
 }
