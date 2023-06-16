@@ -68,7 +68,7 @@ color: #2E2F42;
 }
 .address-item {
 }
-.address-mail {
+.link.address-mail {
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
@@ -77,8 +77,8 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
-.address-mail:hover,
-.address-mail:focus {
+.link.address-mail:hover,
+.link.address-mail:focus {
     color: #404BBF;
 }
 /* Hero styles */
@@ -187,9 +187,9 @@ color: #2E2F42;
 .list {
 }
 .team-item {
+    background-color: #FFFFFF;
 }
 .team-img {
-    background-color: #FFFFFF;
 }
 .team-item-title {
     font-family: 'Roboto';
